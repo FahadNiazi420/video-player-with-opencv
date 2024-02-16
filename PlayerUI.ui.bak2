@@ -240,22 +240,6 @@ background-color: rgb(0, 0, 127);</string>
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="btnShow">
-            <property name="font">
-             <font>
-              <pointsize>12</pointsize>
-             </font>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(0, 0, 127);</string>
-            </property>
-            <property name="text">
-             <string>Show</string>
-            </property>
-           </widget>
-          </item>
-          <item>
            <spacer name="horizontalSpacer_4">
             <property name="orientation">
              <enum>Qt::Horizontal</enum>
@@ -520,7 +504,7 @@ background-color: rgb(0, 0, 127);</string>
                </item>
                <item>
                 <property name="text">
-                 <string>Grayscale</string>
+                 <string>Gray Scale</string>
                 </property>
                </item>
               </widget>
@@ -692,7 +676,7 @@ background-color: rgb(0, 0, 127);</string>
              <string notr="true">color: rgb(255, 255, 255);</string>
             </property>
             <property name="value">
-             <number>0</number>
+             <number>24</number>
             </property>
             <property name="format">
              <string>00:00</string>

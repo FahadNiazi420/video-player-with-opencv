@@ -240,22 +240,6 @@ background-color: rgb(0, 0, 127);</string>
            </widget>
           </item>
           <item>
-           <widget class="QPushButton" name="btnShow">
-            <property name="font">
-             <font>
-              <pointsize>12</pointsize>
-             </font>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">color: rgb(255, 255, 255);
-background-color: rgb(0, 0, 127);</string>
-            </property>
-            <property name="text">
-             <string>Show</string>
-            </property>
-           </widget>
-          </item>
-          <item>
            <spacer name="horizontalSpacer_4">
             <property name="orientation">
              <enum>Qt::Horizontal</enum>
@@ -316,7 +300,7 @@ background-color: rgb(0, 0, 127);</string>
           <property name="bottomMargin">
            <number>0</number>
           </property>
-          <item row="2" column="0">
+          <item row="1" column="0">
            <widget class="QFrame" name="frame_7">
             <property name="frameShape">
              <enum>QFrame::StyledPanel</enum>
@@ -400,7 +384,7 @@ background-color: rgb(0, 0, 127);</string>
                </property>
                <property name="icon">
                 <iconset>
-                 <normaloff>Icons/pause.png</normaloff>Icons/pause.png</iconset>
+                 <normaloff>Icons/play.png</normaloff>Icons/play.png</iconset>
                </property>
                <property name="iconSize">
                 <size>
@@ -520,7 +504,7 @@ background-color: rgb(0, 0, 127);</string>
                </item>
                <item>
                 <property name="text">
-                 <string>Grayscale</string>
+                 <string>Gray Scale</string>
                 </property>
                </item>
               </widget>
@@ -528,7 +512,7 @@ background-color: rgb(0, 0, 127);</string>
             </layout>
            </widget>
           </item>
-          <item row="2" column="1">
+          <item row="1" column="1">
            <widget class="QFrame" name="frame_8">
             <property name="sizePolicy">
              <sizepolicy hsizetype="Preferred" vsizetype="Fixed">
@@ -678,25 +662,6 @@ background-color: rgb(0, 0, 127);</string>
               </widget>
              </item>
             </layout>
-           </widget>
-          </item>
-          <item row="1" column="0" colspan="2">
-           <widget class="QProgressBar" name="VideoBar">
-            <property name="maximumSize">
-             <size>
-              <width>16777215</width>
-              <height>11</height>
-             </size>
-            </property>
-            <property name="styleSheet">
-             <string notr="true">color: rgb(255, 255, 255);</string>
-            </property>
-            <property name="value">
-             <number>0</number>
-            </property>
-            <property name="format">
-             <string>00:00</string>
-            </property>
            </widget>
           </item>
          </layout>
